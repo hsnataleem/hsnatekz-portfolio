@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/hsnatekz-portfolio/static/css/main.04099477.css",
-    "main.js": "/hsnatekz-portfolio/static/js/main.95435798.js",
+    "main.js": "/hsnatekz-portfolio/static/js/main.33beeecf.js",
     "static/media/earth.jpg": "/hsnatekz-portfolio/static/media/earth.64fb6456eec96e280006.jpg",
     "index.html": "/hsnatekz-portfolio/index.html",
     "main.04099477.css.map": "/hsnatekz-portfolio/static/css/main.04099477.css.map",
-    "main.95435798.js.map": "/hsnatekz-portfolio/static/js/main.95435798.js.map"
+    "main.33beeecf.js.map": "/hsnatekz-portfolio/static/js/main.33beeecf.js.map"
   },
   "entrypoints": [
     "static/css/main.04099477.css",
-    "static/js/main.95435798.js"
+    "static/js/main.33beeecf.js"
   ]
 }
