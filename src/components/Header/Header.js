@@ -7,7 +7,7 @@ const Header = ({ toggle, toggleTheme, theme }) => {
       <Nav>
         {/* Logo */}
         <Logo to="/">
-          <img src="/hsnatekz.png" alt="logo" />
+          <img src={process.env.PUBLIC_URL + "/hsnatekz.png"} alt="logo" />
         </Logo>
 
         {/* Navigation Menu */}

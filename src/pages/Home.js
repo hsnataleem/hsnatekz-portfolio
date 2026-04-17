@@ -7,7 +7,7 @@ import Contact from "../components/Contact/Contact";
 import Footer from "../components/Footer/Footer";
 import FixSocialIcon from "../components/SocialIcon/FixSocialIcon";
 import ScrollToTop from "../components/SocialIcon/ScrollToTop";
-import CommentBox from "../components/Comments/CommentBox";
+
 import Dropdown from "../components/Dropdown/Dropdown";
 
 function Home() {
@@ -34,7 +34,7 @@ function Home() {
       <Projects />
       <About />
       <Contact />
-      <CommentBox />
+
       <FixSocialIcon />
       <Footer />
       <ScrollToTop />

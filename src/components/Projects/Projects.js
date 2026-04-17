@@ -1,7 +1,6 @@
 import React from "react";
 import ProjectCard from "./ProjectCard/ProjectCard";
-import Lottie from "lottie-react";
-import projectsAnimation from "../../assets/mobile.json"; // 👈 put your JSON file here
+
 
 function Projects() {
   return (
@@ -30,14 +29,7 @@ function Projects() {
       <div className="ProjectWrapper" id="projects">
         <div className="Container" style={{ textAlign: "center" }}>
           
-          {/* 👇 Lottie Animation */}
-          <div style={{ maxWidth: "1000px", margin: "0 auto 20px auto" }}>
-            <Lottie 
-              animationData={projectsAnimation} 
-              loop={true} 
-              style={{ width: "100%", height: "100%" }} 
-            />
-          </div>
+
 
           <div className="SectionTitle">Projects</div>
           <ProjectCard />

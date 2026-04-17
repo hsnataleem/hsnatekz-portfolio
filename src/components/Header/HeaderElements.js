@@ -15,6 +15,10 @@ export const Nav = styled.nav`
   top: 0;
   left: 0;
   width: 100%;
+
+  @media screen and (max-width: 768px) {
+    height: 100px; /* Reduced height for mobile */
+  }
 `;
 
 export const NavLink = styled(ScrollLink)`
@@ -28,20 +32,21 @@ export const NavLink = styled(ScrollLink)`
     color: var(--primary-color);
   }
 `;
+
 export const Logo = styled('div')`
   display: flex;
   align-items: center;
-  justify-content: flex-start; /* force align to left */
-  flex: 0 0 auto; /* prevent stretching */
+  justify-content: flex-start; /* align left */
+  flex: 0 0 auto;
 
   img {
-    max-width: 500px;  /* adjust for desktop */
+    width: clamp(120px, 20vw, 500px); /* min 120px, max 500px, scales with viewport */
     height: auto;
-  }
+    object-fit: contain;
 
-  @media screen and (max-width: 768px) {
-    img {
-      max-width: 140px; /* smaller logo on mobile */
+    @media screen and (max-width: 768px) {
+      width: 30vw; /* Larger relative width on mobile */
+      min-width: 150px; /* Ensure minimum size */
     }
   }
 `;

@@ -1,7 +1,7 @@
 // --------------------------------------- Project List
 export const ProjectList = [
   {
-    img: "/bot.png",
+    img: process.env.PUBLIC_URL + "/bot.png",
     title: "Virtual Defence System",
     description:
       "Virtual Defence System is an interactive web platform that allows users to locate nearest recovery stations, report incidents, and monitor security, combining real-time maps with AI-assisted features for enhanced safety.",
@@ -10,13 +10,22 @@ export const ProjectList = [
     demo_url: "https://hsnataleem.github.io/Virtual-defence",
   },
   {
-    img: "/renr-responsive.png",
+    img: process.env.PUBLIC_URL + "/renr-responsive.png",
     title: "RENR Safety App",
     description:
       "A safety application for the Renewable Resources",
     tech_stack: ["React", "Firebase"],
     github_url: "",
     demo_url: "https://renr-bcit.web.app/",
+  },
+  {
+    img: process.env.PUBLIC_URL + "/file-fly.png",
+    title: "File Fly",
+    description:
+      "A secure and efficient file-sharing platform that allows users to share files over the internet using QR code scanning or direct links across multiple devices.",
+    tech_stack: ["React", "Vite", "Node.js", "Express", "Render", "GitHub"],
+    github_url: "https://github.com/hsnataleem/File-Fly",
+    demo_url: "https://file-fly.onrender.com/",
   },
   /*
   {
@@ -135,5 +144,13 @@ export const stackList = [
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg",
     name: "VS Code",
+  },
+  {
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/vitejs/vitejs-original.svg",
+    name: "Vite",
+  },
+  {
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/render/render-original.svg",
+    name: "Render",
   },
 ];

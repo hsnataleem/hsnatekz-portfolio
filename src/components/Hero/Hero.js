@@ -84,7 +84,7 @@ function Hero() {
           <HeroRight>
             <ScrollAnimation animateIn="fadeIn">
               <Image
-                src="/apple.png"
+                src={process.env.PUBLIC_URL + "/apple.png"}
                 alt="engineer"
               />
             </ScrollAnimation>
@@ -95,7 +95,7 @@ function Hero() {
           <ScrollLink>
             Scroll down
             <img
-              src="/scroll-down.svg"
+              src={process.env.PUBLIC_URL + "/scroll-down.svg"}
               alt="scroll-down"
             />
           </ScrollLink>
