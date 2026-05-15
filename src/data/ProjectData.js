@@ -25,7 +25,7 @@ export const ProjectList = [
       "A secure and efficient file-sharing platform that allows users to share files over the internet using QR code scanning or direct links across multiple devices.",
     tech_stack: ["React", "Vite", "Node.js", "Express", "Render", "GitHub"],
     github_url: "https://github.com/hsnataleem/File-Fly",
-    demo_url: "https://file-fly.onrender.com/",
+    demo_url: "https://hsnat.me",
   },
   /*
   {
@@ -77,14 +77,7 @@ export const stackList = [
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
     name: "ReactJS",
   },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg",
-    name: "NextJs",
-  },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg",
-    name: "Typescript",
-  },
+
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg",
     name: "Git",
@@ -109,10 +102,7 @@ export const stackList = [
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
     name: "Python",
   },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original.svg",
-    name: "Flask",
-  },
+
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg",
     name: "C",
@@ -129,28 +119,14 @@ export const stackList = [
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg",
     name: "Bootstrap",
   },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/materialui/materialui-original.svg",
-    name: "Material UI",
-  },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg",
-    name: "Figma",
-  },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-plain.svg",
-    name: "TailwindCSS",
-  },
+
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg",
     name: "VS Code",
   },
   {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/vitejs/vitejs-original.svg",
-    name: "Vite",
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg",
+    name: "Express",
   },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/render/render-original.svg",
-    name: "Render",
-  },
+
 ];
